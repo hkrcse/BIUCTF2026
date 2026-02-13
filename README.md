@@ -1,3 +1,21 @@
+# BIUCTF2026
+
+[![GitHub Repo](https://img.shields.io/badge/repo-BIUCTF2026-blue)](https://github.com/hkrcse/BIUCTF2026)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Kali Linux](https://img.shields.io/badge/platform-KaliLinux-orange)](#)
+
+BIUCTF2026 is a local web application challenge. This guide will help you set it up on your **Kali Linux** machine.
+
+---
+
+## 🚀 Prerequisites
+
+Before you start, make sure you have installed:
+
+- [Git](https://git-scm.com/)  
+- Apache2  
+- MySQL / MariaDB
+- 
 <!DOCTYPE html>
 <html lang="en">
 <head>
