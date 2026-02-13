@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+:root {
+  --bg:#020617;
+  --card:#020617;
+  --accent:#ef4444;
+  --text:#e5e7eb;
+  --muted:#9ca3af;
+}
+
+body {
+  margin:0;
+  font-family:Inter,sans-serif;
+  background:radial-gradient(circle at top,#020617,#020617);
+  color:var(--text);
+}
+
+a { text-decoration:none; color:inherit }
+
+.navbar {
+  padding:1rem 2rem;
+  border-bottom:1px solid #1f2937;
+}
+
+.logo {
+  font-size:1.4rem;
+  font-weight:700;
+  color:var(--accent);
+}
+
+.container {
+  max-width:1200px;
+  margin:auto;
+  padding:2rem;
+}
+
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:1.5rem;
+}
+
+.card {
+  background:var(--card);
+  border-radius:14px;
+  padding:1.8rem;
+  border:1px solid #1f2937;
+  transition:.3s;
+  position:relative;
+}
+
+.card:hover {
+  transform:translateY(-8px);
+  border-color:var(--accent);
+  box-shadow:0 20px 40px rgba(239,68,68,.2);
+}
+
+.badge {
+  position:absolute;
+  top:16px;
+  right:16px;
+  background:var(--accent);
+  padding:.3rem .7rem;
+  border-radius:20px;
+  font-size:.7rem;
+}
+
+.btn {
+  background:var(--accent);
+  padding:.6rem 1.2rem;
+  border-radius:8px;
+  display:inline-block;
+  margin-top:1rem;
+}
+
+input, textarea {
+  width:100%;
+  padding:.6rem;
+  background:#020617;
+  color:white;
+  border:1px solid #1f2937;
+  border-radius:6px;
+}
+
+.footer {
+  margin-top:4rem;
+  text-align:center;
+  font-size:.8rem;
+  color:var(--muted);
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-card {
+  max-width: 400px;
+  margin: 0 auto 30px;
+}
+
+.search-form {
+  display: flex;
+  gap: 10px;
+}
+
+.search-form input {
+  flex: 1;
+}
+
+.flag-card {
+  border: 1px solid #00ffcc;
+  box-shadow: 0 0 15px rgba(0,255,204,0.4);
+}
+/* ===== Neon Enhancements (Added Only) ===== */
+
+/* Neon heading glow (your h2 had no glow) */
+h2 {
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+/* Form layout (missing) */
+form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+/* Stronger neon input glow */
+input {
+  box-shadow: 0 0 8px #00ffff55;
+}
+
+/* Input placeholder neon tone */
+input::placeholder {
+  color: #00ffff88;
+}
+
+/* Button hover enhancement */
+.btn {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #00ffff;
+}
+
+/* Neon animated card glow (missing animation) */
+.card {
+  animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+  from { box-shadow: inset 0 0 10px #00ffff22; }
+  to   { box-shadow: inset 0 0 20px #00ffff66; }
+}
+
+/* Error / No result message style */
+p {
+  text-align: center;
+  color: #ff4d4d;
+  text-shadow: 0 0 8px #ff4d4d;
+}
+.task-wrapper {
+  width: 100%;
+}
+
+.task-number {
+  margin-bottom: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #aaa;
+  letter-spacing: 1px;
+}
