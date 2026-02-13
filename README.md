@@ -15,46 +15,7 @@ Before you start, make sure you have installed:
 - [Git](https://git-scm.com/)  
 - Apache2  
 - MySQL / MariaDB
-- 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>BIUCTF2026 Setup Guide</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f9f9f9;
-            padding: 20px;
-        }
-        h1, h2, h3 {
-            color: #2c3e50;
-        }
-        pre {
-            background: #272822;
-            color: #f8f8f2;
-            padding: 10px;
-            border-radius: 5px;
-            overflow-x: auto;
-        }
-        code {
-            background: #eee;
-            padding: 2px 4px;
-            border-radius: 3px;
-        }
-        ul {
-            margin-left: 20px;
-        }
-        .note {
-            background: #ffeaa7;
-            padding: 10px;
-            border-left: 5px solid #fdcb6e;
-            margin-bottom: 20px;
-        }
-    </style>
-</head>
-<body>
+
 
 <h1>BIUCTF2026 Setup Guide (Kali Linux)</h1>
 
