@@ -6,16 +6,6 @@
 
 BIUCTF2026 is a local web application challenge. This guide will help you set it up on your **Kali Linux** machine.
 
----
-
-## 🚀 Prerequisites
-
-Before you start, make sure you have installed:
-
-- [Git](https://git-scm.com/)  
-- Apache2  
-- MySQL / MariaDB
-
 
 <h1>BIUCTF2026 Setup Guide (Kali Linux)</h1>
 
